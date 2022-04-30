@@ -1,0 +1,14 @@
+## Hello world
+print "Hello World!";
+
+## Print fron 0 to 10
+repeat 10, print;
+
+## Define variables and functions
+let hello, "Message.";
+onexpr say-hello, (print "Hello World"); ## single expression function
+func say-two-things, (print "two"), (print "things")
+
+## Lambdas (anonynmous functions)
+lambda (add 5, 1)
+big-lambda (print "big"), (print "lambda")
